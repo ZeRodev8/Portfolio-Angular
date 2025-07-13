@@ -1,16 +1,91 @@
-<div id="sobre-mi" class="min-h-screen flex items-center justify-center px-4 bg-white dark:bg-gray-900">
-    <div
-        class="max-w-4xl mx-auto p-8 rounded-3xl bg-[#007681]/10 dark:bg-[#007681]/20 backdrop-blur-lg border border-[#007681]/30 dark:border-[#007681]/40 shadow-2xl">
-        <h1 class="text-4xl md:text-6xl font-bold text-[#007681] dark:text-emerald-300 mb-6 tracking-tighter">
-            ¡Hola! 👋 Soy Álvaro
+<section id="sobre-mi" class="min-h-[50rem] flex-column items-start justify-center px-4 ">
+    <div class="flex items-center gap-7 max-w-4xl mx-auto py-10">
+        <img class="rounded-full shadow-lg size-24" src="assets/images/alvaro.jpeg" alt="Álvaro Gil">
+        <h1 class="text-[29px] sm:text-5xl  font-bold text-blue-500 dark:text-white tracking-tighter">
+            Hola👋, soy Álvaro, desarrollador full-stack
         </h1>
-        <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-            Desarrollador creativo y apasionado por la tecnología. Me encanta crear soluciones impactantes y aprender
-            cada día.
-        </p>
-        <button
-            class="px-8 py-3 bg-[#007681] text-white font-medium rounded-full hover:bg-[#00616c] dark:hover:bg-emerald-700 transition-all">
-            Descubre más
-        </button>
     </div>
-</div>
+
+    <p class="mt-2 text-xl [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-white">
+        Actualmente cuento con 2 años de experiencia <strong>desarrollando, gestionando y desplegando</strong>
+        aplicaciones web completas
+        de manera satisfactoria.
+    </p>
+
+    <nav class="flex flex-wrap gap-4 mt-8">
+        <a href="mailto:alvaroglf99@gmail.com" target="_blank" rel="noopener noreferrer" role="link"
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5"></path>
+                <path d="M3 6l9 6l9 -6"></path>
+                <path d="M15 18h6"></path>
+                <path d="M18 15l3 3l-3 3"></path>
+            </svg>
+            Contáctame
+        </a>
+        <a href="https://www.linkedin.com/in/%C3%A1lvaro-gil-le%C3%B3n-61049b302/" target="_blank"
+            rel="noopener noreferrer" role="link"
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                <path d="M8 11l0 5"></path>
+                <path d="M8 8l0 .01"></path>
+                <path d="M12 16l0 -5"></path>
+                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+            LinkedIn
+        </a>
+    </nav>
+    <!-- EXPERIENCIA LABORAL -->
+    <div class="mt-10 w-full max-w-4xl mx-auto">
+        <h2 class="text-xl sm:text-2xl font-bold text-blue-500 dark:text-yellow-300 mb-4 flex items-center gap-2">
+            <svg class="size-6 text-yellow-400 dark:text-yellow-300" fill="none" stroke="currentColor" stroke-width="2"
+                viewBox="0 0 24 24">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            Experiencia laboral
+        </h2>
+        <ol class="relative border-s-2 border-blue-200 dark:border-gray-700 pl-6">
+            <!-- Item 1 -->
+            <li class="mb-8 last:mb-0">
+                <div
+                    class="absolute -left-3 top-1.5 w-6 h-6 bg-blue-500 dark:bg-yellow-400 rounded-full border-4 border-white dark:border-gray-900">
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        Desarrollador Full Stack · <span class="text-blue-500 dark:text-yellow-300">Mercanza</span>
+                    </h3>
+                    <span class="block text-sm text-gray-500 dark:text-gray-400 mb-1">Mar 2023 – Actualidad</span>
+                    <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 text-base space-y-1">
+                        <li>Desarrollo de aplicaciones web completas (Angular, Node.js).</li>
+                        <li>Implementación de APIs REST y gestión de bases de datos.</li>
+                        <li>Despliegue y mantenimiento en la nube.</li>
+                    </ul>
+                </div>
+            </li>
+            <!-- Item 2 -->
+            <li>
+                <div
+                    class="absolute -left-3 top-1.5 w-6 h-6 bg-blue-300 dark:bg-yellow-200 rounded-full border-4 border-white dark:border-gray-900">
+                </div>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        Frontend Developer · <span class="text-blue-500 dark:text-yellow-300">Otra Empresa</span>
+                    </h3>
+                    <span class="block text-sm text-gray-500 dark:text-gray-400 mb-1">Ene 2022 – Feb 2023</span>
+                    <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 text-base space-y-1">
+                        <li>Desarrollo de interfaces responsivas y accesibles.</li>
+                        <li>Optimización de rendimiento y experiencia de usuario.</li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+</section>

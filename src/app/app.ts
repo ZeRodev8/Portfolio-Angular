@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SobreMi } from './sobre-mi/sobre-mi';
 import { Proyectos } from './proyectos/proyectos';
-import { Contacto } from './contacto/contacto';
 import { NavbarComponent } from './navbar/navbar';
 
 
@@ -13,8 +12,7 @@ import { NavbarComponent } from './navbar/navbar';
     RouterOutlet,
     NavbarComponent,
     SobreMi,
-    Proyectos,
-    Contacto
+    Proyectos
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
