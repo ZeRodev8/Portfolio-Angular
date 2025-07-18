@@ -18,6 +18,6 @@ export default `<!doctype html>
 <body class="bg-gray-50 dark:bg-gray-950 text-black dark:text-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))]
       dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" ngcm="">
   <app-root></app-root>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-PZXFNSM5.js" type="module"></script></body>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-3NKQRMHL.js" type="module"></script></body>
 
 </html>`;
