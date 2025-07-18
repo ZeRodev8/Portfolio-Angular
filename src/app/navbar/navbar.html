@@ -1,17 +1,23 @@
 <!-- navbar.html (componente navbar) -->
-<nav class="h-24 w-full backdrop-blur-md shadow-sm z-50">
+<nav class="sticky top-0 h-24 w-full backdrop-blur-md shadow-sm z-50">
   <div class="max-w-6xl h-full mx-auto px-6 py-4 flex justify-center items-center">
     <div class="flex items-center space-x-6">
-      <button (click)="scrollTo('sobre-mi')" class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
+      <button (click)="scrollTo('sobre-mi')"
+        class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
         Sobre mí
       </button>
-      <button (click)="scrollTo('proyectos')" class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
+      <button (click)="scrollTo('proyectos')"
+        class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
         Proyectos
       </button>
-      <button (click)="scrollTo('contacto')" class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
-        Contacto
-      </button>
-      <button (click)="toggleDarkMode()" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700">
+      <a href="mailto:alvaroglf99@gmail.com" target="_blank" rel="noopener noreferrer" role="link"><button
+          (click)="scrollTo('contacto')"
+          class="text-gray-700 dark:text-gray-300 hover:text-[#007681] dark:hover:text-emerald-300 transition-colors">
+          Contacto
+        </button>
+      </a>
+      <button (click)="toggleDarkMode()"
+        class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700">
         <span class="dark:hidden">🌞</span>
         <span class="hidden dark:inline">🌙</span>
       </button>
